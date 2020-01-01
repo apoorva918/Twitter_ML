@@ -1,6 +1,6 @@
 # Twitter Sentiment Analysis
 
-#### Python code developed using pandas, numpy, nltk libraries in jupyter notebooks.
+#### Python code developed using pandas, numpy and nltk libraries in jupyter notebooks.
 
 ### Description
 training_set.csv
