@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Twitter Sentiment Analysis</title>
+        <style>            
+            body 
+            {
+                background-image: url('twitterBG.jpg');
+                background-repeat:no-repeat;
+                background-size:cover;
+                color:black;
+            }
+            button
+            {
+                height: 30px;
+                width: 150px;
+                color: black;
+                margin-bottom: 15px;
+            }
+            
+            /* div{
+                float: left;
+            } */
+        </style>
+    </head>
+       
+    <body width="80%">
+        <!-- <font color="white"> -->
+            <center>
+                <h1>Data Visualization</h1>
+                <h2>Comparison of Algorithms:</h2>
+                <br><br>
+                <h3>Accuracy with BOW features:</h3>
+                <table style="width:30%; border-collapse: collapse;" bgcolor=" #fdfefe" border="1" cellpadding="2" cellspacing="0" >
+                    <tr>
+                        <th>Logistic Regression</th>
+                        <th>Gradient Boosting Machine</th>
+                        <th>Random Forest</th>
+                        <th>Gaussian Naive Bayes</th>
+                    </tr>
+                    <tr>
+                        <td>94.80654%</td>
+                        <td>94.57711%</td>
+                        <td>93.99311%</td>
+                        <td>52.90436%</td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <h3>Accuracy with TFIDF features:</h3>
+                <table style="width:30%; border-collapse: collapse;" bgcolor=" #fdfefe" border="1" cellpadding="2" cellspacing="0" >
+                    <tr>
+                        <th>Logistic Regression</th>
+                        <th>Gradient Boosting Machine</th>
+                        <th>Random Forest</th>
+                        <th>Gaussian Naive Bayes</th>
+                    </tr>
+                    <tr>
+                        <td>94.99426%</td>
+                        <td>95.02555%</td>
+                        <td>95.19240%</td>
+                        <td>53.65522%</td>
+                    </tr>
+                </table>
+                <br>
+                <div>
+                    <h3>F1 scores:</h3>
+                    <br>
+                    <img src="compareF1Score.png" id="myP" width="500px" />
+                </div>
+                
+                <div>
+                    <h3>Accuracies:</h3>
+                    <br>
+                    <img src="compareAccuracy.png" id="myP" width="500px" />
+                </div>
+                <br>
+                <br>
+                <h3>Most frequently used words in the tweets:</h3>
+                <br>
+                <img src="frequentWords.png" id="myP" width="700px"  />
+                <br>
+                
+                
+                <button><a href="index2.html">Labeled test Data</a></button>
+                <br>
+            </center>   
+        </body>
+    </body>
+</html>
