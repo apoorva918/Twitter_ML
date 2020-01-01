@@ -1,7 +1,8 @@
 # Twitter Sentiment Analysis
 
-##### Python code developed using pandas, numpy, nltk libraries in jupyter notebooks.
+#### Python code developed using pandas, numpy, nltk libraries in jupyter notebooks.
 
+### Description
 training_set.csv
 - 31962 labeled tweets
 - label 1 for negative
@@ -26,3 +27,12 @@ Metrics used for comparison:
 
 To execute:
 Run Final_twitter.ipynb
+
+Steps performed:
+- preprocessing of data
+- training set split into training and validation set
+- feature extraction using both techniques
+- all four models are fit onto both features
+- maximum accuracy achieved using Random forest with TFIDF features, so test data is labeled with this model
+
+Data visualization done using word clouds and graphs. It is displayed on webpages. 
